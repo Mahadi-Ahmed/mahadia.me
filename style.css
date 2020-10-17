@@ -27,8 +27,10 @@
       position:fixed;
       height: 3rem;
       display:flex;
-      justify-content: flex-end;
-      width: 89%;
+      justify-content: space-between;
+      width: 85%;
+      left: 10%;
+      margin: auto;
       background: black;
       z-index:9;
       color: #42b983;
@@ -36,9 +38,15 @@
       align-items: center;
   }
 
-  #header p{
+  .logo{
+      display: flex;
+  }
+
+  .icons{
+      display: flex;
       flex-direction: row;
   }
+
 
   a:link {
       color: #42b983;
